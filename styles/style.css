@@ -33,6 +33,10 @@ header {
   align-items: center;
   color: var(--font-light);
 }
+.nav a:any-link {
+  color: white;
+  text-decoration: none;
+}
 .nav__logo {
   margin-right: auto;
   font-weight: 600;
