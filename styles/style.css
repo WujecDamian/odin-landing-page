@@ -159,6 +159,10 @@ main {
   text-align: right;
   font-weight: 900;
 }
+/* main 4 - - -  */
+.main4 {
+  display: flex;
+}
 /* *FOOTER */
 footer {
   background-color: var(--dark-bg);
