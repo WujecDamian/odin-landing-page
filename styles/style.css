@@ -80,14 +80,15 @@ main {
   color: var(--font-light);
   border: none;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 1rem -5px rgba(31, 31, 31, 0.3);
 }
 .main1--right {
   flex: 1 1 auto;
 }
 .main1--right img {
-  width: 100%;
-
+  width: 400px;
   height: auto;
+  filter: drop-shadow(5px 20px 10px rgba(0, 0, 0, 0.3));
 }
 .main1__heading-desc {
   width: 80%;
