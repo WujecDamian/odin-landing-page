@@ -106,6 +106,9 @@ main {
   flex: 0 1 100px;
   gap: 0.5rem;
 }
+.card__item img {
+  filter: contrast(10);
+}
 .cards__h4 {
   font-size: 1rem;
   font-weight: 400;
