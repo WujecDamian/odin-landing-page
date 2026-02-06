@@ -132,6 +132,32 @@ main {
 }
 .main3 {
   background-color: var(--light-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.main3 img {
+  flex: 0.5 1 auto;
+  border-radius: 50%;
+}
+.main3__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  flex: 0 1 350px;
+}
+.main3__testimonial {
+  display: flex;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 300;
+}
+.main3__clientname {
+  margin-top: 2rem;
+  text-align: right;
+  font-weight: 900;
 }
 /* *FOOTER */
 footer {
