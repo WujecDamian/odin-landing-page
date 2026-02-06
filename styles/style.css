@@ -55,7 +55,7 @@ main {
 .main1 {
   background-color: var(--dark-bg);
   background-image: linear-gradient(
-    var(--dark-bg) 10%,
+    var(--dark-bg) 5%,
     rgba(103, 101, 119, 0.288) 30%,
     #ffffff 99%
   );
@@ -86,6 +86,8 @@ main {
   flex: 1 1 auto;
 }
 .main1--right img {
+  display: flex;
+  min-width: 100%;
   width: 400px;
   height: auto;
   filter: drop-shadow(5px 20px 10px rgba(0, 0, 0, 0.3));
@@ -162,6 +164,38 @@ main {
 /* main 4 - - -  */
 .main4 {
   display: flex;
+}
+.main4__cta {
+  display: flex;
+
+  flex-wrap: wrap;
+  background-color: var(--blue-bg);
+  color: var(--font-light);
+  padding: 3rem 5rem;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.main4__cta--left {
+  flex: 1 1 300px;
+}
+.main4__cta--right {
+  flex: 0 1 auto;
+}
+.cta__h4 {
+  font-weight: 200;
+}
+.main4__bookingbtn {
+  margin: 1rem 0;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--blue-bg);
+  font-size: 1.25rem;
+  border: 2px solid white;
+  color: var(--font-light);
+  border-radius: 0.5rem;
+  text-wrap: nowrap;
+  box-shadow: 0px 4px 1rem -5px rgba(31, 31, 31, 0.3);
 }
 /* *FOOTER */
 footer {
