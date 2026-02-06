@@ -201,4 +201,6 @@ main {
 footer {
   background-color: var(--dark-bg);
   color: var(--font-light);
+  padding: 2.5rem;
+  text-align: center;
 }
