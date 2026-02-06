@@ -20,14 +20,34 @@ body {
 /* *HEADER */
 header {
   display: flex;
+  color: var(--font-light);
   background-color: var(--dark-bg);
+}
+.nav {
+  padding: 1rem 10vw;
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  font-weight: 200;
+  align-items: center;
+}
+.nav__logo {
+  margin-right: auto;
+  font-weight: 600;
 }
 
 /* *MAIN */
 main {
 }
+.main1,
+.main2,
+.main3,
+.main4 {
+  padding: 10vw;
+}
 .main1 {
   background-color: var(--dark-bg);
+  color: var(--font-light);
 }
 .main3 {
   background-color: var(--light-bg);
@@ -35,4 +55,5 @@ main {
 /* *FOOTER */
 footer {
   background-color: var(--dark-bg);
+  color: var(--font-light);
 }
